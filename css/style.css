@@ -28,7 +28,7 @@ header{
 .logo {
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 30px;
     position: relative;
     /* background-color: green; */
 
@@ -119,7 +119,7 @@ header{
      /* height: 100%; */
      width: 100%;
      /* margin-top: 30px; */
-     padding: 5rem;
+     /* padding: 5rem; */
      text-align: center;
      font-size: 1.5rem;
      line-height: 2.8rem;
@@ -435,6 +435,7 @@ header{
     text-transform: uppercase;
     background: #fff;
     letter-spacing: 1px;
+    margin-top: 2rem;
 }
 
 .sample-text-section {
@@ -468,157 +469,102 @@ header{
 }
 
 @media(max-width: 375px) {
- /* .logo {
-     padding: 0 5%;
-     background-color: red; 
- }   
- .image-container .image-text {
-     width: 21px;
-     margin: 5rem 1rem;
-     font-size: 23px;
+.image-house .image-container-2 {
+     /* flex-direction: column !important; */
  }
+ html {
+     font-size: 14px !important;
+ }
+ div.image-container {
+     width: 100%;
+     padding-top: 25rem;
+ }
+ .icons {
+     display: none;
+ }
+
  .first-image {
-     width: 105%;
-     padding: 0px;
+     background-position: 75% !important;
+ }
+ .image-container .image-text h1 {
+     font-size: 4rem !important;
+     font-weight: 900;
+ }
+ .image-container .image-text {
+     width: 100% !important;
  }
 
- .image-container {
-     width: 62%;
-     background-image: url(../images/hero-bg.jpg);
-     height: 262px;
-     display: flex;
-     flex-direction: row;
+ .image-container .image-text p {
+     font-size: 2rem !important;
  }
- .image-container  .image-text hr {
-     width: 768%;
+ section .logo {
+     /* padding: 10px !important; */
+     /* width: 100%; */
  }
-.image-container h1 {
-    font-size: 1.5rem;
-}
-.plumber-text {
-    padding: 349px 0;
-    flex-direction: column;
-}
-.image-plumber {
 
-}
+ .services-section .services-department {
+     flex-direction: column !important;
+ }
+ .about-section .gallery img {
+    width: 100%;
+    margin-bottom: 25px;
+ }
 
-.image-house {
-    height: 118%;
-    width: 162%;
-    font-size: 1.5rem;
-}
-.services-section {
-    width: 165%;
-    height:107% ;
+ div.gallery .gallery-image-1, .gallery-image-2 {
+    flex-direction: column !important;
+    margin-bottom: 0;
+ }
 }
 
-.about-section  {
-    width:165% ;
-}
-.mission-section {
-    width: 165%;
-    height: 104%;
-}
-.about-section .gallery-image-2{
-    padding: 147px;
-    flex-direction: column;
-    height: 48%;
-}
-
-.about-section .gallery-image-1 {
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    padding: 212px 147px;
-
-}
-
-.sample-text-section {
-    width: 165%;
-    height: 104%;
-}
-.sample-text-section p {
-    margin: 5rem;
-} */
-}
 
 @media(max-width: 425px) {
-    /* .logo {
-        
-    }
-    .first-image {
-        width: 180%;
-    }
-    .image-container {
-        width: 85%;
-        background-image: url(../images/hero-bg.jpg);
-        height: 200%;
-        flex-direction: row;
+.image-house .image-container-2 {
+    flex-direction: column !important;
 }
-.image-container h1 {
-    font-size: 30px;
+html{
+    font-size: 15px !important;
 }
-.image-house {
-    height: 100%;
-    width: 175%;
+.image-container .image-text p {
+    font-size: 1.5rem;
 }
-.services-section {
+.image-container .image-text h1 {
+    font-size: 2.5rem !important;
+}
+.icons {
+    display: none;
+}
+
+.first-image {
+    background-position: 75% !important;
+}
+.services-section .services-department {
+    flex-direction: column !important;
+}
+ div.gallery .gallery-image-1, .gallery-image-2 {
+    flex-direction: column !important;
+    margin-bottom: 0;
+   
+}
+.about-section .gallery img {
     width: 100%;
+    margin-bottom: 25px;
 }
 
-.services-section .services-part {
-    text-align: center;
-    width: 85%;
-    padding: 16px;
-}
 
-.plumber-text {
-    padding: 2px 0;
-    flex-direction: column;
-}
-.about-section {
-    height: 104%;
-    width: 180%;
-    flex-direction: column;
-}
-.mission-section {
-    width: 160%;
-    height: 272%;
-}
-.about-section .gallery-image-1 {
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 212px 147px;
-    justify-content: space-between;
-}
-.about-section .gallery-image-2{
-    padding: 147px;
-    flex-direction: column;
-    height: 48%;
-}
-.sample-text-section {
-    height: 100%;
-    width: 180%;
 
 }
-
-.sample-text-section  p {
-    margin: 5rem;
-} */
-}
+    
 
 @media(max-width: 768px) {
-header {
-    padding: 0 8%;
 
+}
+* {
+    /* overflow: hidden; */
 }
 .plumber-text h3 {
     margin: 2.5rem 0;
 }
-.icons{
+.icons {
     /* display: none; */
 }
 
